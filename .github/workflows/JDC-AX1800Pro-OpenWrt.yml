@@ -12,8 +12,8 @@ on:
   #   - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x
-  REPO_BRANCH: main  
+  REPO_URL: https://github.com/LiBwrt/openwrt-6.x
+  REPO_BRANCH: main-nss
   CONFIG_FILE: configs/JDC-AX1800Pro.config
   FEEDS_CONF: feeds.conf.default
   # PATCHES_FILE_1: patches/0001-show-soc-status-on-luci.patch
