@@ -117,8 +117,8 @@ jobs:
         cd $OPENWRT_PATH
         ./scripts/feeds update -a
         ./scripts/feeds install -a
-        chmod +x ./diy-part2.sh
-        ./diy-part2.sh
+        chmod +x $GITHUB_WORKSPACE/diy-part2.sh
+        $GITHUB_WORKSPACE/diy-part2.sh
 
     # - name: Apply patches(安装补丁)   
     #   run: |
